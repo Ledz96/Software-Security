@@ -9,7 +9,7 @@ Depending on the value input for square_width, the variable image_data may be su
 **Affected Lines**
 
 checkerboard.c:112, checkerboard.c:113, checkerboard.c:114 and checkerboard.c:115 (original file)
-checkerboard.c:114, checkerboard.c:115, checkerboard.c:116 and checkerboard.c:117 (fixed file)
+checkerboard.c:112, checkerboard.c:114, checkerboard.c:116 and checkerboard.c:118 (fixed file)
 
 **Expected vs Observed**
 
