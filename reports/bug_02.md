@@ -4,7 +4,7 @@ Invalid access
 
 **Description**
 
-Because of the way the iteration for loop is coded, image_data is always accessed with an out of bound write. This is undesirable, as it leads to undefined behavior.
+Because of the way the iteration for loop is coded, image_data is always accessed with an out of bound write. In particular, despite the indexes at the extreme "right" and "bottom" being respectively width-1 and height-1, the indexes width and height are accessed. This is undesirable, as it leads to undefined behavior.
 
 **Affected Lines**
 
