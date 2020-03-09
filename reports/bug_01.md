@@ -9,7 +9,7 @@ Depending on the value input for the circle's center and its radius, the variabl
 **Affected Lines**
 
 circle.c:49-52, circle.c:56-59, circle.c:70-73 and circle.c:77-80 (original file)
-circle.c:114, circle.c:115, circle.c:116 and circle.c:117 (fixed file)
+circle.c:54-57, circle.c:64-67, circle.c:84-87 and circle.c:94-97 (fixed file)
 
 **Expected vs Observed**
 
