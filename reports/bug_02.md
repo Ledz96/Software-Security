@@ -9,7 +9,7 @@ Because of the way the iteration for loop is coded, image_data is always accesse
 **Affected Lines**
 
 rect.c: 75-78 (original file)
-rect.c: (fixed file)
+rect.c: 77-80 (fixed file)
 
 **Expected vs Observed**
 
