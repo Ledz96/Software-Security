@@ -1,6 +1,6 @@
 **Name**
 
-Invalid access
+Out of bounds write
 
 **Description**
 
