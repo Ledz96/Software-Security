@@ -8,8 +8,8 @@ In order to copy the arguments passed from the command line, the unsafe function
 
 **Affected Lines**
 
-rect.c: 20-21 (original file)
-rect.c: (fixed file)
+rect.c: 20, 21 (original file)
+rect.c: 21, 23 (fixed file)
 
 **Expected vs Observed**
 
@@ -22,4 +22,4 @@ In practice, since no check is employed, the writing operations copies all the i
 
 **Suggested Fix Description**
 
-In order to fix the bug, it is enough to replace the strcpy() invocations with a strncpy, with a limit of 255 bytes being copied. In addition, a string terminator must be added in the 256th byte of the arrays. This way, all the additional bytes will be ignored. Unfortunately, this limits the length of the file name to 255 bytes.
+In order to fix the bug, it is enough to replace the strcpy() invocations with a strncpy, with a limit of 255 bytes being copied. In addition, a string terminator must be added in the 256th byte of the arrays. This way, all the additional bytes will be ignored. Unfortunately, this limits the length of the file names to 255 bytes.
