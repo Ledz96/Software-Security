@@ -58,8 +58,8 @@ int main(int argc, char *argv[]) {
 
     /* Iterate over all pixels in the new image and fill them with the nearest
      * neighbor in the old one */
-    for (unsigned y = 0; y < round(new_height); y++) {
-      for (unsigned x = 0; x < round(new_width); x++) {
+    for (unsigned y = 0; y < new_height; y++) {
+      for (unsigned x = 0; x < new_width; x++) {
 
         /* Calculate the location of the pixel in the old image */
         unsigned nearest_x = x / factor;
