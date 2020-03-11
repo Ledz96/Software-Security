@@ -1,6 +1,6 @@
 **Name**
 
-Buffer overflow
+Command injection
 
 **Description**
 
@@ -9,7 +9,7 @@ In order to inform the user of the size of an image, the program invokes the com
 **Affected Lines**
 
 solid.c: 119 (original file)
-checkerboard.c:112, checkerboard.c:114, checkerboard.c:116 and checkerboard.c:118 (fixed file)
+solid.c: 106, 107, 115 (fixed file)
 
 **Expected vs Observed**
 
