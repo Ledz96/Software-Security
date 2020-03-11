@@ -9,7 +9,6 @@ In case of memory errors, the same memory object is freed twice. By the specific
 **Affected Lines**
 
 resize.c: 86-87 (original file)
-checkerboard.c:112, checkerboard.c:114, checkerboard.c:116 and checkerboard.c:118 (fixed file)
 
 **Expected vs Observed**
 
