@@ -9,7 +9,7 @@ The for loop used to resize the image uses the function round() to determine the
 **Affected Lines**
 
 resize.c: 58-59, resize.c: 66 (original file)
-checkerboard.c:112, checkerboard.c:114, checkerboard.c:116 and checkerboard.c:118 (fixed file)
+resize.c: 61-62, resize.c: 69 (fixed file)
 
 **Expected vs Observed**
 
