@@ -9,7 +9,7 @@ After trying to allocate the pointer new_img->px, a check on the success of the 
 **Affected Lines**
 
 resize.c: 49 (original file)
-resize.c: 136, 224 (fixed file)
+resize.c: 47 (fixed file)
 
 **Expected vs Observed**
 
