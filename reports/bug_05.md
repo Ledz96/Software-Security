@@ -8,8 +8,8 @@ In order to allocate a pixel, the function get_pixel() is called. Its implementa
 
 **Affected Lines**
 
-filter.c: 118-121 (original file)
-filter.c: (fixed file)
+filter.c: 118-124 (original file)
+filter.c: 120-126 (fixed file)
 
 **Expected vs Observed**
 
