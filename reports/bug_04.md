@@ -9,7 +9,7 @@ In order to copy the arguments passed from the command line, the unsafe function
 **Affected Lines**
 
 filter.c: 177-179 (original file)
-filter.c: (fixed file)
+filter.c: 177-182 (fixed file)
 
 **Expected vs Observed**
 
