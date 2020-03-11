@@ -8,8 +8,8 @@ The variable palette, that is allocated earlier in the code, is subject to a mis
 
 **Affected Lines**
 
-solid.c: 49, solid.c: 64-67,92-94 (original file)
-checkerboard.c:112, checkerboard.c:114, checkerboard.c:116 and checkerboard.c:118 (fixed file)
+solid.c: 49 (original file)
+solid.c: 124 (fixed file)
 
 **Expected vs Observed**
 
